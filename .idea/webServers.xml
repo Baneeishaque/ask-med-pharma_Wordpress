@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ef24ad37-9b21-4e8b-8a25-c057fe5ce045" name="askmedpharma.ssquared.qa" url="https://askmedpharma.ssquared.qa">
+        <fileTransfer rootFolder="/public_html/askmedpharma.com" host="149.255.58.44" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
