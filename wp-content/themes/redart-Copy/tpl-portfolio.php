@@ -92,7 +92,7 @@ get_header();
 			
 			$categories = isset($tpl_default_settings['portfolio-categories']) ? array_filter($tpl_default_settings['portfolio-categories']) : array();
 			$cats = $categories;
-			$post_per_page=0;
+			$post_per_page=9999999;
 			#Query arg
 			$args = array();
 			if( empty($categories) ):
@@ -259,9 +259,10 @@ get_header();
                   </div><?php
 				else: ?>
                     <!-- **Pagination** -->
-                    <div class="pagination blog-pagination">
-                        <?php echo redart_pagination($the_query); ?>
-                    </div><!-- **Pagination** --><?php
+                    <!-- <div class="pagination blog-pagination"> -->
+                        <!-- <?php echo redart_pagination($the_query); ?> -->
+                    <!-- </div> -->
+					<!-- **Pagination** --><?php
 				endif;
 				wp_reset_postdata();
 			endif;?>

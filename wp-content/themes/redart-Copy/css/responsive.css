@@ -4027,7 +4027,7 @@
 		
 		/*----*****---- << Portfolio >> ----*****----*/
 		
-		.portfolio figure::after { border-width: 15px; }		
+		.portfolio figure::after { border-width: 0px; }		
 		
 		/*----*****---- << Widgets >> ----*****----*/
 		.widget .dt-sc-newsletter-section.boxed { margin:0; }
