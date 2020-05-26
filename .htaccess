@@ -5,6 +5,7 @@
 # Any changes to the directives between these markers will be overwritten.
 
 # END WordPress
+
 # php -- BEGIN cPanel-generated handler, do not edit
 # Set the “ea-php72” package as the default “PHP” programming language.
 <IfModule mime_module>
