@@ -10071,10 +10071,6 @@ msgstr "Stick this post to the front page"
 msgid "Edit visibility"
 msgstr "Edit visibility"
 
-#: wp-admin/includes/meta-boxes.php:158 wp-admin/includes/meta-boxes.php:183
-msgid "Password protected"
-msgstr "Password protected"
-
 #: wp-admin/includes/meta-boxes.php:125
 msgid "Set status"
 msgstr "Set status"
@@ -10118,19 +10114,19 @@ msgid "WordPress is at the latest version."
 msgstr "WordPress is at the latest version."
 
 #. translators: %s: Page title.
-#: wp-admin/includes/misc.php:1378
+#: wp-admin/includes/misc.php:1401
 msgid "%s (Draft)"
 msgstr "%s (Draft)"
 
 #. translators: New admin email address notification email subject. %s: Site
 #. title.
-#: wp-admin/includes/misc.php:1352
+#: wp-admin/includes/misc.php:1375
 msgid "[%s] New Admin Email Address"
 msgstr "[%s] New Admin Email Address"
 
 #. translators: Do not translate USERNAME, ADMIN_URL, EMAIL, SITENAME, SITEURL:
 #. those are placeholders.
-#: wp-admin/includes/misc.php:1299
+#: wp-admin/includes/misc.php:1322
 msgid ""
 "Howdy ###USERNAME###,\n"
 "\n"
@@ -10167,32 +10163,32 @@ msgstr ""
 "###SITEURL###"
 
 #. translators: %s: Date and time.
-#: wp-admin/includes/misc.php:1196
+#: wp-admin/includes/misc.php:1219
 msgid "Draft saved at %s."
 msgstr "Draft saved at %s."
 
 #. translators: Draft saved date format, see https://secure.php.net/date
-#: wp-admin/includes/misc.php:1192
+#: wp-admin/includes/misc.php:1215
 msgid "g:i:s a"
 msgstr "g:i:s a"
 
-#: wp-admin/includes/misc.php:1188 wp-admin/includes/post.php:1927
+#: wp-admin/includes/misc.php:1211 wp-admin/includes/post.php:1927
 #: wp-admin/widgets.php:378
 msgid "Error while saving."
 msgstr "Error while saving."
 
 #. translators: %s: User's display name.
-#: wp-admin/includes/misc.php:1068
+#: wp-admin/includes/misc.php:1091
 msgid "%s has taken over and is currently editing."
 msgstr "%s has taken over and is currently editing."
 
 #. translators: %s: User's display name.
-#: wp-admin/includes/misc.php:1018
+#: wp-admin/includes/misc.php:1041
 #: wp-admin/includes/class-wp-posts-list-table.php:1003
 msgid "%s is currently editing"
 msgstr "%s is currently editing"
 
-#: wp-admin/includes/misc.php:917 wp-admin/user-edit.php:295
+#: wp-admin/includes/misc.php:940 wp-admin/user-edit.php:295
 msgid "Admin Color Scheme"
 msgstr "Admin Colour Scheme"
 
