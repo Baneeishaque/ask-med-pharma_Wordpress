@@ -1385,8 +1385,14 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	/* Portfolio Single */
 	.dt-portfolio-single { width:100%; margin:0px; padding:0px 0px 6px; float:left; clear:both; position:relative; }
 	.dt-portfolio-single:before { content:""; position:absolute; bottom:0px; left:0px; width:100%; height:6px; }
+
+	.dt-portfolio-single {
+		display: flex;
+		flex-direction: row !important;
+		flex-wrap: wrap;
+	}
 	
-	.dt-portfolio-single-details { padding:40px 0px 0px; display:block; clear:both; float:left; }
+	.dt-portfolio-single-details { padding:40px 10px 40px 20px; display:block; clear:both; float:left; }
 	.dt-portfolio-single-details h3 { font-weight:bold; }
 	
 	.dt-sc-one-third .dt-portfolio-single-details { padding-top:10px; }
@@ -1400,7 +1406,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	
 	.dt-portfolio-single .dt-sc-two-third.right-gallery { float:right; margin-left:2%; margin-right:0px; }
 	
-	.dt-portfolio-single-slider-wrapper, .dt-portfolio-single-slider { float:left; clear:both; margin:0px; padding:0px; width:100%; line-height:0px; }
+	.dt-portfolio-single-slider-wrapper, .dt-portfolio-single-slider { float:left; clear:both; margin:0px; padding:0px; /*width:100%*/; line-height:0px; /*background-color: red;*/}
 	.dt-portfolio-single-slider li { display:block; margin:0px 1px 0px 0px; padding:0px; }
 	.dt-portfolio-single-slider li img { max-width:100%; height:auto; }
 	

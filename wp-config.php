@@ -13,23 +13,23 @@
  * * Database table prefix
  * * ABSPATH
  *
- * @link https://codex.wordpress.org/Editing_wp-config.php
+ * @link https://wordpress.org/support/article/editing-wp-config-php/
  *
  * @package WordPress
  */
 
-define('WP_HOME','https://askmedpharma.ssquared.qa');
-define('WP_SITEURL','https://askmedpharma.ssquared.qa');
+define('WP_HOME','http://localhost/ask_med_pharma');
+define('WP_SITEURL','http://localhost/ask_med_pharma');
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'ssquareq_askmedpharma' );
+define( 'DB_NAME', 'askmekiy_wp327' );
 
 /** MySQL database username */
-define( 'DB_USER', 'ssquareq_dotlocus' );
+define( 'DB_USER', 'askmekiy_wp327' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'aA9895204814' );
+define( 'DB_PASSWORD', 's0S[pO253-' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
@@ -49,14 +49,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         's,o:/:L/&P l[`!h@:GPD%SIs^-0VLJmj+]WU+{~$>cOm#nU3U.YK.hOVSFJ$)F{' );
-define( 'SECURE_AUTH_KEY',  '+ZFPokTCQxt7(:*lr]3yPEncAiYD{H_Bi0g#<UZO#_,[v#ay@33:N*iX5b8m.R[~' );
-define( 'LOGGED_IN_KEY',    'RHCY$k0.JF^E<j1Z87vtoGgV5H6)0!|L8vX|1)e2f7}8VN :00T</)mc:=KtgTPt' );
-define( 'NONCE_KEY',        '/eH?~WVR}qg8?xnHsMJ%A{@/n|zGvh3Z~->vqAglzZ6)FrzBoJm5=V.f5AP#r!..' );
-define( 'AUTH_SALT',        'L-^=ieWGT^Cf;|d#u$9gI}H o#NCF1l0Z7d6cdTmf?#M=xh2Qp($[16q?Z<(yO#Q' );
-define( 'SECURE_AUTH_SALT', 'B:Vh<GQXq6#eE!4bvTgp2If5gJ8)0x&mPA#iST2g3R{O}D-tdTleW?zaTA|/[Bel' );
-define( 'LOGGED_IN_SALT',   '`Vt)OT NJ%mtt=rmsliu}=4Sj;6$=/;#G#9Uir^a2|w7RZo}sqdX-cXW*{|?2u=V' );
-define( 'NONCE_SALT',       '/[%zRY|H1SukH2Hz$$+q]1.:Gu`S-GHw2)8`3kFpMN4*.R}:[us%XxXV+Q(Yxht&' );
+define( 'AUTH_KEY',         '2xp1xdj60b9ah5q7q97kcjatbhysl90aeoswfogvtvzbeg0rgufudmsiwqeodt8g' );
+define( 'SECURE_AUTH_KEY',  'ol7a220vz9xuxfuzlktbmylsvbwt0ojygv8gafx7w2r0e9sq78lu42snsnyjygp4' );
+define( 'LOGGED_IN_KEY',    'iwwggnufb9pkeqwvyjagtqbhdthlgtignvy9kzxk1v21hjx3tn25vcqw0j6fpcbd' );
+define( 'NONCE_KEY',        'dnhj9u8x95n15juilmw3vqonajj7o5txrtxqd9nsswy0hg6bt8v1n9kjevjeoukv' );
+define( 'AUTH_SALT',        'rlyy5kotch47khhfykalalkmy0nerxkhq57n4f0ndpg1hu3jfpwsxcbycjbasbun' );
+define( 'SECURE_AUTH_SALT', 'bod2zv1gptziiyxbyrynvku39cxm9ukdkejesooczsxla3ftnqaryp7bmpkwkvcz' );
+define( 'LOGGED_IN_SALT',   'w143lsnhpzirazhw40lveeqzpbzqwcfekxzwlmjv4tnvpu4kt57vqp6tuqgs94xv' );
+define( 'NONCE_SALT',       '0zcqtkdif0lesgpamnzsswpjchgnvixicbmiddnbgofsd2y7qhqsapjzpvmryrf2' );
 
 /**#@-*/
 
@@ -66,7 +66,7 @@ define( 'NONCE_SALT',       '/[%zRY|H1SukH2Hz$$+q]1.:Gu`S-GHw2)8`3kFpMN4*.R}:[us
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix = 'wp_';
+$table_prefix = 'wpq6_';
 
 /**
  * For developers: WordPress debugging mode.
@@ -76,9 +76,9 @@ $table_prefix = 'wp_';
  * in their development environments.
  *
  * For information on other constants that can be used for debugging,
- * visit the Codex.
+ * visit the documentation.
  *
- * @link https://codex.wordpress.org/Debugging_in_WordPress
+ * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
 define( 'WP_DEBUG', false );
 
@@ -86,8 +86,8 @@ define( 'WP_DEBUG', false );
 
 /** Absolute path to the WordPress directory. */
 if ( ! defined( 'ABSPATH' ) ) {
-	define( 'ABSPATH', dirname( __FILE__ ) . '/' );
+	define( 'ABSPATH', __DIR__ . '/' );
 }
 
 /** Sets up WordPress vars and included files. */
-require_once( ABSPATH . 'wp-settings.php' );
+require_once ABSPATH . 'wp-settings.php';

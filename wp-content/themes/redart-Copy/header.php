@@ -8,6 +8,27 @@
     <?php redart_viewport(); ?>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<?php wp_head(); ?>
+	<a class="pdf-section" target="_blank" href="<?php echo REDART_URI.'/static/demo.pdf'; ?>">
+		
+	</a>
+	<style>
+		.pdf-section {
+			height: 45px;
+			width: 45px;
+			border-radius: 50%;
+			background-color: #36B37E;
+			position: fixed;
+			right: 15px;
+			top: 120px;
+			z-index: 9999;
+			color: inherit;
+			text-decoration: none;
+			background-image: url(<?php echo REDART_URI.'/static/'; ?>pdf.svg);
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			}
+	</style>
 </head>
 
 <body <?php body_class(); ?>>
